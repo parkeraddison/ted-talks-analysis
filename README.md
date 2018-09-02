@@ -22,7 +22,8 @@ Gameplan:
   - original language (specific word usage will be skewed by translation)
   - video length (to calculate rough wpm)
   - Event (e.g. TEDx vs TED Global)
+  - Category (reader ratings, e.g. 'inspirational' or 'confusing')
 - Run some basic analysis (duration, length, common words, past/future tense, passive/active voice, etc)
-- Break into categories (perhaps popularity) and try to use PCA to find the specific distinguishing words
+- Break into categories (such as top ranked 'inspirational') and try to use PCA to find the specific distinguishing words
 - Feed text into LSTM and churn out a sudo TED talk
 - Create a nice interactive visalization of results
